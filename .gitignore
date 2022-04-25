@@ -12,3 +12,5 @@ typechain
 
 # don't push the environment vars!
 .env
+
+*.log
