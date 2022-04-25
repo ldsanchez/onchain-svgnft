@@ -17,10 +17,9 @@ module.exports = async({
     log: true
   })
   log(`You have deployed an NFT contract to ${SVGNFT.address}`)
-  let filepath = "./img/leo.svg"
+  let filepath = "./img/boringavatars.svg"
   let svg = fs.readFileSync(filepath, {encoding: "utf8"})
 
-  // Interact with the contract
   const svgNFTContract = await ethers.getContractFactory("SVGNFT")
   const accounts = await hre.ethers.getSigners()
   const signer = accounts[0]
