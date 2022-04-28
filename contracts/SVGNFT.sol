@@ -1,7 +1,3 @@
-// give the contract some SVG code
-// output an NFT URI with this SVG code
-// Sotring all the NFT metadata on-chain
-
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.13;
 
@@ -54,8 +50,8 @@ contract SVGNFT is ERC721URIStorage {
                 Base64.encode(
                     bytes(
                         string.concat(
-                            '{"name": "SVG NFT",',
-                            '"description": "An NFT based on SVG!",',
+                            '{"name": "Elizabeth Peratrovich SVG NFT",',
+                            '"description": "On-chain SVG NFT based on Boring Avatars art",',
                             '"atributes": "",',
                             '"image": "',
                             _imageURI,

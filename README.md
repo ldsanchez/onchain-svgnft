@@ -46,3 +46,5 @@ Now you are ready to run the `npx hardhat verify --network rinkeby <CONTRACT_ADD
 # Thanks 👏🏻
 
 To @PatrickAlphaC and his awesome tutorial https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA
+
+To hihayk and josepmartins from https://www.boringavatars.com
